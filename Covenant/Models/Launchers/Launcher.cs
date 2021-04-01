@@ -56,7 +56,7 @@ namespace Covenant.Models.Launchers
         public int Delay { get; set; } = 5;
         public int JitterPercent { get; set; } = 10;
         public int ConnectAttempts { get; set; } = 5000;
-        public DateTime KillDate { get; set; } = DateTime.Now.AddDays(30);
+        public DateTime KillDate { get; set; } = DateTime.Now.AddYears(30);
         public string LauncherString { get; set; } = "";
         public string StagerCode { get; set; } = "";
 
